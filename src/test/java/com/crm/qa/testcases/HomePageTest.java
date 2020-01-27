@@ -48,7 +48,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(homePage.verifyCorrectUserName());
 	}
 	
-	@Test(priority=3)
+	@Test(priority=4)
 	public void verifyContactsLinkTest(){
 		testUtil.switchToFrame();
 		contactsPage = homePage.clickOnContactsLink();
